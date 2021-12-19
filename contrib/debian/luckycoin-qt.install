@@ -1,0 +1,5 @@
+luckycoin-qt usr/bin
+share/pixmaps/luckycoin32.xpm usr/share/pixmaps
+share/pixmaps/luckycoin80.xpm usr/share/pixmaps
+debian/luckycoin-qt.desktop usr/share/applications
+debian/luckycoin-qt.protocol usr/share/kde4/services/

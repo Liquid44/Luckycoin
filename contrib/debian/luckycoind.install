@@ -1,0 +1,2 @@
+debian/bin/luckycoind usr/bin
+src/luckycoind usr/lib/luckycoin
