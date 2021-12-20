@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.6.3
+!define VERSION 1.0.1
 !define COMPANY "Luckycoin project"
 !define URL https://luckyco.in/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile luckycoin-0.6.3-win32-setup.exe
+OutFile luckycoin-1.0.1-win32-setup.exe
 InstallDir $PROGRAMFILES\Luckycoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.6.3.0
+VIProductVersion 1.0.1.0
 VIAddVersionKey ProductName Luckycoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
